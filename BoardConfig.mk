@@ -43,7 +43,20 @@ BUILD_BROKEN_PHONY_TARGETS := true
 # Asserts
 TARGET_OTA_ASSERT_DEVICE := kuntao,kuntao_row,P2a42,p2,p2a42
 
-# ANT+
+# Kernel
+BOARD_KERNEL_BASE := 0x80000000
+BOARD_KERNEL_CMDLINE := androidboot.hardware=qcom msm_rtb.filter=0x237 ehci-hcd.park=3 lpm_levels.sleep_disabled=1 androidboot.bootdevice=7824900.sdhci earlycon=msm_hsl_uart,0x78af000 firmware_class.path=/vendor/firmware_mnt/image
+BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
+BOARD_KERNEL_IMAGE_NAME := Image.gz-dtb
+BOARD_KERNEL_OFFSET = 0x00008000
+BOARD_KERNEL_PAGESIZE := 2048
+BOARD_KERNEL_TAGS_OFFSET := 0x00000100
+BOARD_RAMDISK_OFFSET := 0x01000000
+TARGET_KERNEL_ARCH := arm64
+TARGET_KERNEL_CONFIG := lineageos_kuntao_defconfig
+TARGET_KERNEL_SOURCE := kernel/lenovo/msm8953
+
+# ANT
 BOARD_ANT_WIRELESS_DEVICE := "vfs-prerelease"
 
 # Audio
