@@ -38,6 +38,7 @@ TARGET_2ND_CPU_VARIANT := cortex-a53
 
 # Build
 BUILD_BROKEN_DUP_RULES := true
+BUILD_BROKEN_PHONY_TARGETS := true
 
 # Asserts
 TARGET_OTA_ASSERT_DEVICE := kuntao,kuntao_row,P2a42,p2,p2a42
