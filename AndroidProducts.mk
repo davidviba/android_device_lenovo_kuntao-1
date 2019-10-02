@@ -15,4 +15,8 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_kuntao.mk
+    $(LOCAL_DIR)/arrow_kuntao.mk
+
+COMMON_LUNCH_CHOICES := \
+    arrow_kuntao-eng
+
