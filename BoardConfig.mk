@@ -56,6 +56,9 @@ TARGET_KERNEL_ARCH := arm64
 TARGET_KERNEL_CONFIG := lineageos_kuntao_defconfig
 TARGET_KERNEL_SOURCE := kernel/lenovo/msm8953
 
+# APEX image
+DEXPREOPT_GENERATE_APEX_IMAGE := true
+
 # ANT
 BOARD_ANT_WIRELESS_DEVICE := "vfs-prerelease"
 
