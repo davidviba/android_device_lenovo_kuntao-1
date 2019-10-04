@@ -123,8 +123,8 @@ PRODUCT_PACKAGES += \
     android.hardware.drm@1.2-service.clearkey
 
 # Fingerprint sensor
-PRODUCT_PACKAGES += \
-    DeviceSettings
+#PRODUCT_PACKAGES += \
+#    DeviceSettings
 
 PRODUCT_PACKAGES += \
     android.hardware.biometrics.fingerprint@2.0-service.kuntao
