@@ -29,6 +29,8 @@
 
 #define LOG_TAG "QCameraMuxer"
 
+#define VANILLA_HAL
+
 // System dependencies
 #include <fcntl.h>
 #include <stdio.h>

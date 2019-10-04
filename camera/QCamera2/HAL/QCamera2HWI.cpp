@@ -29,6 +29,8 @@
 
 #define LOG_TAG "QCamera2HWI"
 
+#define VANILLA_HAL
+
 // To remove
 #include <cutils/properties.h>
 
