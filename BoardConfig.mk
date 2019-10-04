@@ -58,7 +58,6 @@ TARGET_KERNEL_SOURCE := kernel/lenovo/msm8953
 
 # APEX image
 DEXPREOPT_GENERATE_APEX_IMAGE := true
-TARGET_FLATTEN_APEX := true
 
 # ANT
 BOARD_ANT_WIRELESS_DEVICE := "vfs-prerelease"
